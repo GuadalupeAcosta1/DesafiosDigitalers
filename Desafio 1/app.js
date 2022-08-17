@@ -18,6 +18,6 @@ function map(array, miFuncion) {
     return arrayModificado;
 }
 
-let array = [6, 15, 2, 4];
-let arrayNuevo = (map(array, (element) => { return element * 10 }));
+let array = [6, 10, 2, 4];
+let arrayNuevo = (map(array, gastoConIva));
 console.log(arrayNuevo);
